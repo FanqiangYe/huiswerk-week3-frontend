@@ -1,1 +1,80 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300;400;800&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: roboto, sans-serif;
+    background-color: #F2F3D9;
+}
+
+.navigation
+{
+    padding: 10px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: #030027;
+    color: white;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-grow: 18;
+}
+
+.navigate-items
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+h1, h3
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+h3
+{
+    margin-top: 5px;
+}
+
+.textbox
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text-items
+{
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #C16E70;
+    height: 350px;
+    margin: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
